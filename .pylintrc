@@ -1,0 +1,9 @@
+init-hook='import sys; sys.path.append(".")'
+
+[TYPECHECK]
+generated-members=sh
+
+[MASTER]
+disable=
+    missing-docstring,
+    line-too-long,
